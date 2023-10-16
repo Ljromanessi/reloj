@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #045AA0;
+  color: white;
+  font-size: 16px;
+}
+body .wrap {
+  width: 90%;
+  max-width: 1000px;
+}
+body .wrap .widget {
+  width: 40%;
+  margin: 2em;
+}
+body .wrap .widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+body .wrap .widget .fecha {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+body .wrap .widget .reloj {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+body .wrap .widget .reloj .caja-segundos {
+  display: inline-block;
+}
+body .wrap .widget .reloj .caja-segundos .segundos,
+body .wrap .widget .reloj .caja-segundos .ampm {
+  font-size: 2rem;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
